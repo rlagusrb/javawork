@@ -26,6 +26,12 @@ public class T01_Scanner {
 		String address = sc.nextLine();
 		System.out.println("주소 : " + address);
 		
+		System.out.print("당신의 성별은 무엇입니까? ");
+		String gender2 = sc.next();
+		char gender3 = sc.next().charAt(1);
+		System.out.println("성별 :" + gender2);
+		System.out.println("성별 : "+ gender3);
+		
 		
 		
 
