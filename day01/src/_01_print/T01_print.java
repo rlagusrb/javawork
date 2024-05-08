@@ -3,7 +3,7 @@ package _01_print;
 public class T01_print {
 
 	public static void main(String[] args) {
-		// 실행하지 않음. 한줄 주석 설명이나 기타 사항들을 적는다
+		// 주석 : 실행하지 않음. 한줄 주석 설명이나 기타 사항들을 적는다
 		/*
 		 * 여러줄 주석 여러줄에 걸쳐 설명이나 특이사항들을 적을 때 사용
 		 */
@@ -32,6 +32,10 @@ public class T01_print {
 		System.out.println(abc);
 		int num = 20;
 		System.out.println(num);
+		System.out.println("3+7");
+		System.out.println(3+8 + "연산결과\n" + 4*5);
+		int num3 = 5;
+		System.out.println(num3);
 		
 	}
 }
