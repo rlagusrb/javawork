@@ -33,6 +33,7 @@ public class T02_overlap_for {
 				System.out.println();
 			}*/
 			
+			// 구구단 옆으로 출력하기
 			System.out.println("2단\t 3단\t 4단\t 5단\t 6단\t 7단\t 8단\t 9단\t");
 			for(int i=1; i<=9; i++) {
 				for(int j=2; j<=9; j++) {
