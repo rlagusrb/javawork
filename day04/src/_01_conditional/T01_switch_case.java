@@ -70,7 +70,7 @@ public class T01_switch_case {
 			}
 		
 		//문1 사용자로 부터 2수와 연산자를 입력받아 연산결과를 출력
-	/*private void sysou() {
+	private void sysou() {
 	Scanner sc = new Scanner(System.in);
 		int a, b;
 		char dustks;
@@ -94,7 +94,7 @@ public class T01_switch_case {
 			case '*':
 				System.out.println(a*b);
 				
-			}*/
+			}
 			
 		
 					
