@@ -96,7 +96,7 @@ public class T05_lotto {
 			System.out.println("잘못입력하셨습니다.");
 		}
 		//7
-		System.out.println("베열의 개수 입력 : ");
+		System.out.print("베열의 개수 입력 : ");
 		int count = sc.nextInt();
 		int[] sarr7 = new int[count];
 		int sum = 0;
@@ -109,8 +109,61 @@ public class T05_lotto {
 		System.out.println("합계: " + sum);
 			
 		//8
+		while(true) {
+			System.out.println("정수 입력 :");
+			int num1 = sc.nextInt();
+			
+			if(num1 >=3 && num1%2 ==1) {
+				int iarr8[] = new int[num1];
+				int value = 1;
+				for(int i=0; i<iarr8.length; i++) {
+					if(i<num1/2)
+						iarr8[i] = value++;
+					else 
+						iarr8[i] = value--;
+					System.out.println(iarr8[i]);
+				}
+				break;
+			}else {
+				System.out.println("다시 입력하세요");
+		}
+		}
+		
 		//9
+		String[] chickens = {"양념", "후라이드", "파닭", "허니버터"};
+		String menu = sc.next();
+		
+		boolean flag = false;
+		for(int i=0; i<chickens.length; i++) {
+			if(menu.equals(chickens[i])) {
+				flag = true;
+				break;
+			}
+		}
+		if(flag)
+			System.out.println(menu + "치킨 배달 가능");
+		else
+			System.out.println(menu + "치킨은 없는 메뉴입니다");
+		System.out.println();
 		//10
+		int[] iarr10 = new int[10];
+		for(int i =0; i<iarr10.length; i++) {
+			iarr10[i] =(int)(Math.random()*10)+1;
+			System.out.println(iarr10[i] + " ");
+		}
+		System.out.println();
+		int min = iarr10[0];
+		int max = iarr10[0];
+		
+		for(int i=1; i<iarr10.length; i++) {
+			if(min >iarr10[i])
+				min = iarr10[i];
+			if(max <iarr10[i])
+				max = iarr10[i];
+		}
+		System.out.println("최솟값은 :" + min);
+		System.out.println("최대값은 :" + max);
+				
 		
 		}
 
