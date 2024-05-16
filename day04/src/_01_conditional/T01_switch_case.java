@@ -75,7 +75,7 @@ public class T01_switch_case {
 		int a, b;
 		char dustks;
 		
-			System.out.println("첫번째 숫자를 입력하세요 : ");
+			/*System.out.println("첫번째 숫자를 입력하세요 : ");
 			int a = sc.nextInt();
 			System.out.println("두번째 숫자를 입력하세요 : ");
 			int b = sc.nextInt();
@@ -95,7 +95,7 @@ public class T01_switch_case {
 				System.out.println(a*b);
 				
 			}
-			
+			*/
 		
 					
 			
