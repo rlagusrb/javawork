@@ -27,8 +27,13 @@ public class BookArrayRun {
 			
 			books[i] = new Book(title, author, price, publisher);
 			System.out.println(books[i].information());
-					
-			
+		}
+		// 도서 제목으로 검색하는 서비스
+		System.out.println("검색할 도서명 : ");
+		String search = sc.next();
+		for(int i=0; i<books.length; i++) {
+			if(search.equals(books[i].getTitle()))
+				System.out.println(books[i].information());
 		}
 		
 
