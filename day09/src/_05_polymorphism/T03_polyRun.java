@@ -34,8 +34,16 @@ public class T03_polyRun {
 		 *  반드시 부모는 최초객체생성시 자식의 타입으로 객체가 생성 되어 있어야 됨
 		 */
 		Car car2 = new Car();
-		// 컴파일 오류(실행시 오류가 발생
-		FireCar fCar3 = (FireCar)car2;
+		// 컴파일 오류(실행시 오류가 발생)
+		//FireCar fCar3 = (FireCar)car2;
+		
+		//instanceof : 좌측의 객체가 우측의 타입으로 만들어졌느냐 검사(true)
+		FireCar fCar3 = null;
+		if(fCar3 instanceof FireCar) {
+			fCar3 = (FireCar)car2;
+		}else {
+			System.out.println("변환할 수 없음");
+		}
 
 	}
 
