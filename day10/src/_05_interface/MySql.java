@@ -4,25 +4,25 @@ public class MySql implements DataAccess {
 
 	@Override
 	public void select() {
-		// TODO Auto-generated method stub
+		System.out.println("MySql을 검색합니다.");
 
 	}
 
 	@Override
 	public void insert() {
-		// TODO Auto-generated method stub
+		System.out.println("MySql을 삽입합니다.");
 
 	}
 
 	@Override
 	public void update() {
-		// TODO Auto-generated method stub
+		System.out.println("MySql을 수정합니다");
 
 	}
 
 	@Override
 	public void delete() {
-		// TODO Auto-generated method stub
+		System.out.println("MySql을 삭제합니다.");
 
 	}
 

@@ -31,6 +31,8 @@ public class Tv implements RemoteControl {
 			this.volume = volume;
 		System.out.println("현재 음량 : " + this.volume);
 }
-	
+	static void info() {
+		System.out.println("static() 메소드");
+	}
 
 }

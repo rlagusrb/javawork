@@ -21,18 +21,22 @@ public class Book {
 	void setPubliser(String publisher) {
 		this.publisher = publisher;
 	}
-	String getTitle(String title) {
+	String getTitle() {
 		return title;
 	}
-	String getAuthor(String author) {
+	String getAuthor() {
 		return author;
 	}
-	String getPubliser(String Publisher) {
+	String getPubliser() {
 		return publisher;
 	}
+	@Override
 	public String toString() {
 		return "제목 : " + title + "저자 : " + author + "출판사 : " + publisher;
 	}
+
+	
+	
 	
 	
 
