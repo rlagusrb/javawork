@@ -36,14 +36,13 @@ public class T04_date {
 		System.out.println(sdf7.format(now));
 		
 		String str = "20240507";
-		SimpleDateFormat sdf8 = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat sdf8 = new SimpleDateFormat("y yyy-MM-dd");
 		SimpleDateFormat sdf9 = new SimpleDateFormat("yyyyMMdd");
 		Date strNow;
 		try {
 			strNow = sdf8.parse(str);
 			System.out.println(sdf9.format(strNow));
 		} catch (ParseException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
